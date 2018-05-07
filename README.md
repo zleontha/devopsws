@@ -20,4 +20,4 @@
 ## git ignore
 1. create file '.gitignore'
 2. add line of '*.tmp' and 'build/test.txt'
-3. git ls-files --other --ignored --exclude-standard <<for checking if the ignored files are correct or not>>
+3. git ls-files --other --ignored --exclude-standard <for checking if the ignored files are correct or not>
