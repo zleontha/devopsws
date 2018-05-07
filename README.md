@@ -21,3 +21,9 @@
 1. create file '.gitignore'
 2. add line of '*.tmp' and 'build/test.txt'
 3. git ls-files --other --ignored --exclude-standard <for checking if the ignored files are correct or not>
+
+## docker run
+docker run --name some-nginx \
+-v C:\Users\Tranning\Downloads\devops\html:/usr/share/nginx/html:ro \ <ro = read only>
+-p 80:80 \
+-d nginx
